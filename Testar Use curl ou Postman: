@@ -1,0 +1,7 @@
+curl -X POST http://localhost:3000/webhook \
+-H "Content-Type: application/json" \
+-d '{
+  "userId": "123",
+  "channel": "whatsapp",
+  "message": "Oi, tudo bem?"
+}'

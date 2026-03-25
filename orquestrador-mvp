@@ -1,0 +1,17 @@
+orquestrador-mvp/
+│
+├── src/
+│   ├── server.js
+│   ├── routes/
+│   │   └── webhook.js
+│   ├── services/
+│   │   ├── orchestrator.js
+│   │   ├── aiService.js
+│   │   └── messageService.js
+│   ├── models/
+│   │   └── message.js
+│   └── utils/
+│       └── logger.js
+│
+├── package.json
+└── .env
